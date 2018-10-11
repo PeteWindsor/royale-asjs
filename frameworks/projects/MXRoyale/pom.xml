@@ -43,8 +43,17 @@
         <configuration>
           <namespaces>
             <namespace>
+                <uri>http://ns.adobe.com/mxml/2009</uri>
+                <manifest>${project.basedir}/src/main/resources/mxml-2009-manifest.xml</manifest>
+            </namespace>
+            <namespace>
               <uri>library://ns.apache.org/royale/mx</uri>
               <manifest>${project.basedir}/src/main/resources/mx-royale-manifest.xml</manifest>
+            </namespace>
+            <namespace>
+                <type>as</type>
+                <uri>library://ns.apache.org/royale/mx</uri>
+                <manifest>${project.basedir}/src/main/resources/mx-royale-as-manifest.xml</manifest>
             </namespace>
           </namespaces>
           <includeClasses>
